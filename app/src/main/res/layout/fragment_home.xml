@@ -30,6 +30,12 @@
                 android:text="Cây trồng"
                 android:textColor="@color/black"
                 android:textSize="20dp" />
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/flt_addSP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:src="@drawable/bell" />
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rcvHome"
@@ -37,12 +43,7 @@
                 android:layout_height="wrap_content" />
 
         </LinearLayout>
-        <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/flt_addSP"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end|bottom"
-            android:src="@drawable/bell" />
+
     </LinearLayout>
 
 </RelativeLayout>
