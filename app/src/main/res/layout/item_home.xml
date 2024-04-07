@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    >
+    <ImageView
+        android:id="@+id/img_home"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:backgroundTint="@color/black"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        >
+        <TextView
+            android:id="@+id/txt_tenSP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Đây là tên sản phẩm"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            />
+        <TextView
+            android:id="@+id/txt_giaSP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Đây là giá sản phẩm"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/btn_addCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bell"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        />
+</LinearLayout>
